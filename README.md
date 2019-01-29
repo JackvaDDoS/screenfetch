@@ -12,4 +12,5 @@ sudo pacman -S screenfetch
 -----------------------------------------------------
 usuarios de Fedora o distribuciones derivadas de Fedora:
 
-sudo dnf install screenfetch     
+sudo dnf install screenfetch
+-----------------------------------------------------
