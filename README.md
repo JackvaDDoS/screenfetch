@@ -14,3 +14,20 @@ usuarios de Fedora o distribuciones derivadas de Fedora:
 
 sudo dnf install screenfetch
 -----------------------------------------------------
+Por lo tanto después de ejecutar el software disponemos de la siguiente información:
+
+El logo de nuestra distribución.
+Nuestro nombre de usuario y el nombre del equipo.
+La versión del Kernel que estamos usando.
+El tiempo que lleva abierto nuestro ordenador.
+El número de paquetes que tenemos instalado en nuestro sistema operativo.
+La versión de Bash que estamos usando.
+La resolución de nuestra pantalla.
+El entorno de escritorio que estamos utilizando.
+El tema que estamos usando en nuestro sistema operativo.
+El tema de iconos que estamos usando.
+El tipo de fuente que tenemos configurada.
+El procesador que tiene nuestro ordenador.
+La tarjeta gráfica que tiene nuestro ordenador.
+La memoria RAM usada y disponible de nuestro ordenador.
+Toda la información que se muestra es autodetectada por el mismo programa y nosotros no tenemos que realizar absolutamente nada.
