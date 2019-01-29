@@ -1,0 +1,5 @@
+Para Instalar screenfetch en las diferentes distribuciones de GNU/Linux escribimos lo siguiente en nuestra terminal (modo superusuario).
+
+Derivados de Debian (Ubuntu,PureOs,antiX,SolydXK,MXLinux,Parrot OS,Kali linux, linux mint etc)
+
+sudo apt-get install screenfetch
