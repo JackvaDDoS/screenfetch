@@ -35,26 +35,36 @@ Toda la información que se muestra es autodetectada por el mismo programa y nos
 CONFIGURAR LA INFORMACIÓN QUE SE MUESTRA
 Screenfetch permite configurar el modo en el que queremos que se muestre la información. De este modo podemos modificar el contenido que aparece en pantalla siguiendo las siguientes instrucciones.
 
+---------------------------
+
 Si queremos que se muestre la totalidad de la información que hemos visto con anterioridad a excepción del logo, deberemos usar el siguiente comando:
 
 screenfetch -n
+----------------
 Si queremos se muestre la totalidad de información pero únicamente usando el color de texto que tenemos definido en la terminal, tenemos que ejecutar el siguiente comando:
 
 screenfetch -N
+-------------------------
 Si alguno de los parámetros que tiene que proporcionar el programa da error porqué el programa no es capaz de autodetectar los valores, podemos hacer que no salga en pantalla usando el siguiente comando:
 
 screenfetch -E
+------------------------
 Si queremos que únicamente se imprima el logo de nuestra distro tenemos que usar el siguiente comando:
 
 screenfetch -L
+--------------------------
 Si queremos que únicamente se imprima el logo de nuestra distro, y que además el logo sea en color rojo, tenemos que usar el siguiente comando:
 
 screenfetch -c 9 -L
+------------------------------
 Nota: Si reemplazamos el número 9 por cualquier otro número contenido entre el 0 y el 9, conseguiremos variar el color del logo de nuestra distro.
 Si queremos visualizar el resultado de la salida en el hipotético caso que tuviéramos instalada la distro Deppin, podemos ejecutar el siguiente comando en la terminal:
 
-screenfetch -D 'Deepin'
-Nota: Podemos sustituir la palabra Deepin por el nombre de la distribución que nosotros queramos. Los nombres de las distribuciones disponibles las podéis encontrar en la sección Supported GNU/Linux Distributions de las manpages de screenfetch.
+screenfetch -D 'Debian'
+-----------------------------
+Nota: Podemos sustituir la palabra Debian por el nombre de la distribución que nosotros queramos. Los nombres de las distribuciones disponibles las podéis encontrar en la sección Supported GNU/Linux Distributions de las manpages de screenfetch.
 Para más información sobre las opciones de configuración de este programa, pueden consultar las manpages ejecutando el siguiente comando en la terminal:
 
 man screenfetch
+---------------------
+
